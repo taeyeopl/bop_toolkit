@@ -356,7 +356,7 @@ def cou_bb(bb_est, bb_gt):
     """
     e = 1.0 - misc.iou(bb_est, bb_gt)
     return e
-.
+
 
 def cou_bb_proj(R_est, t_est, R_gt, t_gt, K, renderer, obj_id):
     """Complement over Union of projected 2D bounding boxes.
